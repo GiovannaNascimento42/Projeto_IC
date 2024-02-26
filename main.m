@@ -14,6 +14,8 @@ CanaisUsados= [5 6 9 10 11 12 15];              %Canais relevantes segundo o art
 Amostras = 600;                                 %Quantidade de amostras geradas pelas janelas escolhidas
 DadosAmostra = 128;                             %Frequência de amostragem vees o tempo de amostragem
 
+
+%Inicio do loop de dados 
 for i=1:individuo
     n_individuos = int2str(i);
     arquivo_i = arquivo + n_individuos;
